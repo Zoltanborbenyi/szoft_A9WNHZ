@@ -25,7 +25,7 @@ namespace Pascal
                 }
             }
         }
-
+        ///
         int Faktoriális(int n)
         {
             if (n == 0) return 1;
