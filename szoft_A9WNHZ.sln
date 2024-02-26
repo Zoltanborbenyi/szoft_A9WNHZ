@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szorzotabla", "Szorzotabla\Szorzotabla.csproj", "{B076BD8C-63E3-431C-BC2A-6B6CBE20B312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Szorzotabla", "Szorzotabla\Szorzotabla.csproj", "{B076BD8C-63E3-431C-BC2A-6B6CBE20B312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibanacci", "fibanacci\fibanacci.csproj", "{3EB7020E-20BF-4C39-8EBC-A3174FFD21B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibanacci", "fibanacci\fibanacci.csproj", "{3EB7020E-20BF-4C39-8EBC-A3174FFD21B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal", "Pascal\Pascal.csproj", "{64D844C6-0439-4F56-9145-C33FE5927674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascal", "Pascal\Pascal.csproj", "{64D844C6-0439-4F56-9145-C33FE5927674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyak", "gyak\gyak.csproj", "{71054C12-EFFC-490C-8753-B5664B8B499E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{64D844C6-0439-4F56-9145-C33FE5927674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D844C6-0439-4F56-9145-C33FE5927674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D844C6-0439-4F56-9145-C33FE5927674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71054C12-EFFC-490C-8753-B5664B8B499E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71054C12-EFFC-490C-8753-B5664B8B499E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71054C12-EFFC-490C-8753-B5664B8B499E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71054C12-EFFC-490C-8753-B5664B8B499E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
