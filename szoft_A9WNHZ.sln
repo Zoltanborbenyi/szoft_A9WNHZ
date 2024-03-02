@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.feladat", "3.feladat\3.fe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random", "random\random.csproj", "{B02E1494-A29B-487B-B7D7-0C38ABF5E8CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karácsonyfa", "karácsonyfa\karácsonyfa.csproj", "{06017725-75D5-4018-9810-251D537F7A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{2913D7C6-D785-4770-AF33-1C378D457EAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{B02E1494-A29B-487B-B7D7-0C38ABF5E8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B02E1494-A29B-487B-B7D7-0C38ABF5E8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B02E1494-A29B-487B-B7D7-0C38ABF5E8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06017725-75D5-4018-9810-251D537F7A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06017725-75D5-4018-9810-251D537F7A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06017725-75D5-4018-9810-251D537F7A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06017725-75D5-4018-9810-251D537F7A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
