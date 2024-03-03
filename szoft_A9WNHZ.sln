@@ -11,21 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascal", "Pascal\Pascal.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyak", "gyak\gyak.csproj", "{71054C12-EFFC-490C-8753-B5664B8B499E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "villog", "villog\villog.csproj", "{9BBF40F4-D596-4DFE-90A2-D54B92CCB29B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "villog", "villog\villog.csproj", "{9BBF40F4-D596-4DFE-90A2-D54B92CCB29B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "veletlen", "veletlen\veletlen.csproj", "{B838E24D-1360-435E-8728-B6849BFC1E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "veletlen", "veletlen\veletlen.csproj", "{B838E24D-1360-435E-8728-B6849BFC1E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlás itthon az első zhra", "gyakorlás itthon az első zhra\gyakorlás itthon az első zhra.csproj", "{34B9BF09-418C-49D1-B252-3B4564E42798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlás itthon az első zhra", "gyakorlás itthon az első zhra\gyakorlás itthon az első zhra.csproj", "{34B9BF09-418C-49D1-B252-3B4564E42798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.zh 2", "1.zh 2\1.zh 2.csproj", "{23754BE3-851C-4E64-A67E-4ACB3B80ED72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.zh 2", "1.zh 2\1.zh 2.csproj", "{23754BE3-851C-4E64-A67E-4ACB3B80ED72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.feladat", "3.feladat\3.feladat.csproj", "{8BC97A35-3806-4FCF-ADC6-601127CFD638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.feladat", "3.feladat\3.feladat.csproj", "{8BC97A35-3806-4FCF-ADC6-601127CFD638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random", "random\random.csproj", "{B02E1494-A29B-487B-B7D7-0C38ABF5E8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "random", "random\random.csproj", "{B02E1494-A29B-487B-B7D7-0C38ABF5E8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karácsonyfa", "karácsonyfa\karácsonyfa.csproj", "{06017725-75D5-4018-9810-251D537F7A71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karácsonyfa", "karácsonyfa\karácsonyfa.csproj", "{06017725-75D5-4018-9810-251D537F7A71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{2913D7C6-D785-4770-AF33-1C378D457EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{2913D7C6-D785-4770-AF33-1C378D457EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "faktorialis", "faktorialis\faktorialis.csproj", "{ACF8C691-D551-4E68-934A-E13BD3619E23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2913D7C6-D785-4770-AF33-1C378D457EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF8C691-D551-4E68-934A-E13BD3619E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF8C691-D551-4E68-934A-E13BD3619E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF8C691-D551-4E68-934A-E13BD3619E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF8C691-D551-4E68-934A-E13BD3619E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
