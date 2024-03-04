@@ -25,5 +25,10 @@ namespace gyak
             if (n == 1) return 1;
             return Fibanachi(n - 1) + Fibanachi(n - 2);
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
