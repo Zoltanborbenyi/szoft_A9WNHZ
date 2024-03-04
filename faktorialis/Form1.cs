@@ -37,8 +37,8 @@ namespace faktorialis
 
         private void button1_Click(object sender, EventArgs e)
         {
-            decimal szam = decimal.Parse(textBox1.Text);
-           textBox2.Text = (szam*2).ToString();
+            decimal szam = decimal.Parse(textBox2.Text);
+           textBox1.Text = (szam*2).ToString();
         }
     }
 }
