@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace faktorialis
 {
     partial class Form1
     {
@@ -28,72 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
+            dataGridView1 = new DataGridView();
+            button1 = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            comboBox1 = new ComboBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AccessibleName = "DataGridView1";
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(190, 185);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(240, 150);
+            dataGridView1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(114, 46);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 1;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(188, 245);
+            textBox1.Enabled = false;
+            textBox1.Location = new Point(280, 95);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "asddasasdasd";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 2;
+            textBox1.Text = "1000";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(196, 118);
+            textBox2.Location = new Point(495, 115);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 1;
-            textBox2.Text = "10000";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "10000" });
-            comboBox1.Location = new Point(52, 186);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 2;
-            comboBox1.Text = "10000";
-            // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-=======
-            SuspendLayout();
+            textBox2.Size = new Size(100, 23);
+            textBox2.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
->>>>>>> 53c39ce7b7d31be7f2ebf138aac61ccd951eeb30
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(button1);
+            Controls.Add(dataGridView1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-<<<<<<< HEAD
             PerformLayout();
         }
 
         #endregion
 
+        private DataGridView dataGridView1;
+        private Button button1;
         private TextBox textBox1;
         private TextBox textBox2;
-        private ComboBox comboBox1;
-=======
-        }
-
-        #endregion
-
     }
 }
