@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.feladat", "3.feladat\3.fe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "minden", "minden\minden.csproj", "{1A2DC5DD-0667-4717-81F6-08C872BD955D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.het", "5.het\5.het.csproj", "{4F9F908E-1D8A-40CF-A496-24FC00DBD49C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.het", "5.het\5.het.csproj", "{4F9F908E-1D8A-40CF-A496-24FC00DBD49C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kigyo", "kigyo\kigyo.csproj", "{5CF16D07-DFF9-4FE6-92CD-DBB675EC0870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kigyo", "kigyo\kigyo.csproj", "{5CF16D07-DFF9-4FE6-92CD-DBB675EC0870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.heet", "7.heet\7.heet.csproj", "{4424A3C9-83A2-41F6-8BE8-85E00234AED4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5CF16D07-DFF9-4FE6-92CD-DBB675EC0870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF16D07-DFF9-4FE6-92CD-DBB675EC0870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF16D07-DFF9-4FE6-92CD-DBB675EC0870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4424A3C9-83A2-41F6-8BE8-85E00234AED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4424A3C9-83A2-41F6-8BE8-85E00234AED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4424A3C9-83A2-41F6-8BE8-85E00234AED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4424A3C9-83A2-41F6-8BE8-85E00234AED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
