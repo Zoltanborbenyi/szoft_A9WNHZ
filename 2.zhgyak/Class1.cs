@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2.zhgyak
+{
+    internal class Class1
+    {
+        public int Szam { get; set; }
+        public string Kerdes { get; set; }
+        public string V1 { get; set; }
+        public string V2 { get; set; }
+        public string V3 { get; set; }
+        public string Kep { get; set; }
+        public int HelyesValasz { get; set; }
+    }
+}

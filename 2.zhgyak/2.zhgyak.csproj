@@ -3,13 +3,18 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_2.zhgyak</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="hajozasi_szabalyzat_coma.txt">
+    <PackageReference Include="CsvHelper" Version="31.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="hajo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

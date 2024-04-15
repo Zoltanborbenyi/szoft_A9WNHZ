@@ -39,9 +39,10 @@
             // textBox1
             // 
             textBox1.DataBindings.Add(new Binding("Text", bindingSource1, "Population", true));
-            textBox1.Location = new Point(259, 150);
+            textBox1.Location = new Point(227, 112);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(294, 27);
+            textBox1.Size = new Size(258, 23);
             textBox1.TabIndex = 0;
             // 
             // bindingSource1
@@ -51,27 +52,30 @@
             // textBox2
             // 
             textBox2.DataBindings.Add(new Binding("Text", bindingSource1, "AreaInSquareKm", true));
-            textBox2.Location = new Point(259, 233);
+            textBox2.Location = new Point(227, 175);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(294, 27);
+            textBox2.Size = new Size(258, 23);
             textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
             textBox3.DataBindings.Add(new Binding("Text", bindingSource1, "Name", true));
-            textBox3.Location = new Point(259, 78);
+            textBox3.Location = new Point(227, 58);
+            textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(294, 27);
+            textBox3.Size = new Size(258, 23);
             textBox3.TabIndex = 2;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form2";
             Text = "Form2";
             Load += Form2_Load;
