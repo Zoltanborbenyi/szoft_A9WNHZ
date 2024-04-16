@@ -11,10 +11,12 @@ namespace _2.zhgyak
         {
             InitializeComponent();
         }
+        int legnagyobb = 0;
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = Lista;
+            class1BindingSource.DataSource = Lista;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,7 +40,7 @@ namespace _2.zhgyak
         private void button2_Click(object sender, EventArgs e)
         {
             SaveFileDialog sfd = new SaveFileDialog();
-            if(sfd.ShowDialog() == DialogResult.OK)
+            if (sfd.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
@@ -47,12 +49,26 @@ namespace _2.zhgyak
                     csv.WriteRecord(Lista);
                     sw.Close();
                 }
-                catch (Exception ex )
+                catch (Exception ex)
                 {
 
                     MessageBox.Show(ex.Message);
                 }
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {if (class1BindingSource.Current == null)
+            {
+                MessageBox.Show("szar");
+                return;
+            }
+            if (MessageBox.Show("asd", "Asd", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                class1BindingSource.RemoveCurrent();
+            }
+
+            
         }
     }
 }

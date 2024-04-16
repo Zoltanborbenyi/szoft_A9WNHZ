@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2.zhgyak
 {
-    internal class Class1
+    public class Class1
     {
         public int Szam { get; set; }
         public string Kerdes { get; set; }
