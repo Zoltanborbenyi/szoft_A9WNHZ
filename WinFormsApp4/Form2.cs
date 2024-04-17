@@ -8,25 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp3
+namespace WinFormsApp4
 {
     public partial class Form2 : Form
-    {
-        public Class1 EgySor = new Class1();
+    { public Class1 class1 = new Class1();  
         public Form2()
         {
             InitializeComponent();
-
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-            bindingSource1.DataSource = EgySor;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            bindingSource1.DataSource = EgySor;
-        }
+        
     }
 }

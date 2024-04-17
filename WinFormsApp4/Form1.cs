@@ -64,10 +64,15 @@ namespace WinFormsApp4
         private void button3_Click(object sender, EventArgs e)
         {
             if (class1BindingSource.Current == null) return;
-            if(MessageBox.Show("asd", "asd", MessageBoxButtons.YesNo)== DialogResult.Yes)
+            if (MessageBox.Show("asd", "asd", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 class1BindingSource.RemoveCurrent();
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
