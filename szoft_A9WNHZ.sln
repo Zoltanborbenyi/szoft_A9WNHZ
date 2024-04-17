@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "minta zh", "minta zh\minta 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asdasdasd", "asdasdasd\asdasdasd.csproj", "{0CA83B21-9A59-4C46-A5ED-2AE60521E787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.zhgyak", "2.zhgyak\2.zhgyak.csproj", "{645D890D-C074-4DA8-A216-524A029079A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.zhgyak", "2.zhgyak\2.zhgyak.csproj", "{645D890D-C074-4DA8-A216-524A029079A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp3", "WinFormsApp3\WinFormsApp3.csproj", "{91947C6E-FC8C-410A-9CE8-418AD7CEDEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp4", "WinFormsApp4\WinFormsApp4.csproj", "{759C4D58-C5AC-4ED7-9A9A-580F294CC6A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{645D890D-C074-4DA8-A216-524A029079A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{645D890D-C074-4DA8-A216-524A029079A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{645D890D-C074-4DA8-A216-524A029079A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91947C6E-FC8C-410A-9CE8-418AD7CEDEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91947C6E-FC8C-410A-9CE8-418AD7CEDEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91947C6E-FC8C-410A-9CE8-418AD7CEDEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91947C6E-FC8C-410A-9CE8-418AD7CEDEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759C4D58-C5AC-4ED7-9A9A-580F294CC6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759C4D58-C5AC-4ED7-9A9A-580F294CC6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759C4D58-C5AC-4ED7-9A9A-580F294CC6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759C4D58-C5AC-4ED7-9A9A-580F294CC6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

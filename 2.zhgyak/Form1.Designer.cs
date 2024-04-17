@@ -34,7 +34,6 @@
             button3 = new Button();
             button4 = new Button();
             dataGridView1 = new DataGridView();
-            class1BindingSource = new BindingSource(components);
             szamDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             kerdesDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             v1DataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -42,15 +41,18 @@
             v3DataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             kepDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             helyesValaszDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            class1BindingSource = new BindingSource(components);
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)class1BindingSource).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(530, 381);
+            button1.Location = new Point(606, 508);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(647, 381);
+            button2.Location = new Point(739, 508);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(86, 31);
             button2.TabIndex = 1;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(514, 127);
+            button3.Location = new Point(587, 169);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(86, 31);
             button3.TabIndex = 2;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
@@ -78,12 +82,14 @@
             // 
             // button4
             // 
-            button4.Location = new Point(32, 26);
+            button4.Location = new Point(37, 35);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(86, 31);
             button4.TabIndex = 3;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // dataGridView1
             // 
@@ -91,67 +97,95 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { szamDataGridViewTextBoxColumn, kerdesDataGridViewTextBoxColumn, v1DataGridViewTextBoxColumn, v2DataGridViewTextBoxColumn, v3DataGridViewTextBoxColumn, kepDataGridViewTextBoxColumn, helyesValaszDataGridViewTextBoxColumn });
             dataGridView1.DataSource = class1BindingSource;
-            dataGridView1.Location = new Point(12, 184);
+            dataGridView1.Location = new Point(14, 245);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(465, 254);
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(531, 339);
             dataGridView1.TabIndex = 4;
-            // 
-            // class1BindingSource
-            // 
-            class1BindingSource.DataSource = typeof(Class1);
             // 
             // szamDataGridViewTextBoxColumn
             // 
             szamDataGridViewTextBoxColumn.DataPropertyName = "Szam";
             szamDataGridViewTextBoxColumn.HeaderText = "Szam";
+            szamDataGridViewTextBoxColumn.MinimumWidth = 6;
             szamDataGridViewTextBoxColumn.Name = "szamDataGridViewTextBoxColumn";
+            szamDataGridViewTextBoxColumn.Width = 125;
             // 
             // kerdesDataGridViewTextBoxColumn
             // 
             kerdesDataGridViewTextBoxColumn.DataPropertyName = "Kerdes";
             kerdesDataGridViewTextBoxColumn.HeaderText = "Kerdes";
+            kerdesDataGridViewTextBoxColumn.MinimumWidth = 6;
             kerdesDataGridViewTextBoxColumn.Name = "kerdesDataGridViewTextBoxColumn";
+            kerdesDataGridViewTextBoxColumn.Width = 125;
             // 
             // v1DataGridViewTextBoxColumn
             // 
             v1DataGridViewTextBoxColumn.DataPropertyName = "V1";
             v1DataGridViewTextBoxColumn.HeaderText = "V1";
+            v1DataGridViewTextBoxColumn.MinimumWidth = 6;
             v1DataGridViewTextBoxColumn.Name = "v1DataGridViewTextBoxColumn";
+            v1DataGridViewTextBoxColumn.Width = 125;
             // 
             // v2DataGridViewTextBoxColumn
             // 
             v2DataGridViewTextBoxColumn.DataPropertyName = "V2";
             v2DataGridViewTextBoxColumn.HeaderText = "V2";
+            v2DataGridViewTextBoxColumn.MinimumWidth = 6;
             v2DataGridViewTextBoxColumn.Name = "v2DataGridViewTextBoxColumn";
+            v2DataGridViewTextBoxColumn.Width = 125;
             // 
             // v3DataGridViewTextBoxColumn
             // 
             v3DataGridViewTextBoxColumn.DataPropertyName = "V3";
             v3DataGridViewTextBoxColumn.HeaderText = "V3";
+            v3DataGridViewTextBoxColumn.MinimumWidth = 6;
             v3DataGridViewTextBoxColumn.Name = "v3DataGridViewTextBoxColumn";
+            v3DataGridViewTextBoxColumn.Width = 125;
             // 
             // kepDataGridViewTextBoxColumn
             // 
             kepDataGridViewTextBoxColumn.DataPropertyName = "Kep";
             kepDataGridViewTextBoxColumn.HeaderText = "Kep";
+            kepDataGridViewTextBoxColumn.MinimumWidth = 6;
             kepDataGridViewTextBoxColumn.Name = "kepDataGridViewTextBoxColumn";
+            kepDataGridViewTextBoxColumn.Width = 125;
             // 
             // helyesValaszDataGridViewTextBoxColumn
             // 
             helyesValaszDataGridViewTextBoxColumn.DataPropertyName = "HelyesValasz";
             helyesValaszDataGridViewTextBoxColumn.HeaderText = "HelyesValasz";
+            helyesValaszDataGridViewTextBoxColumn.MinimumWidth = 6;
             helyesValaszDataGridViewTextBoxColumn.Name = "helyesValaszDataGridViewTextBoxColumn";
+            helyesValaszDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // class1BindingSource
+            // 
+            class1BindingSource.DataSource = typeof(Class1);
+            // 
+            // button5
+            // 
+            button5.Location = new Point(202, 155);
+            button5.Name = "button5";
+            button5.Size = new Size(94, 29);
+            button5.TabIndex = 5;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
+            Controls.Add(button5);
             Controls.Add(dataGridView1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -175,5 +209,6 @@
         private DataGridViewTextBoxColumn kepDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn helyesValaszDataGridViewTextBoxColumn;
         private BindingSource class1BindingSource;
+        private Button button5;
     }
 }
